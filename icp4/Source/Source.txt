@@ -1,0 +1,109 @@
+#Task 1:
+
+Creation of Table in Hive and Loading of data:
+
+ 
+create table petrol (distributer_id STRING,distributer_name STRING,amt_IN STRING,amy_OUT STRING,vol_IN INT,vol_OUT INT,year INT) row format delimited fields terminated by ',' stored as textfile;
+
+load data local inpath '/home/cloudera/Desktop/petrol.txt' into table petrol;
+
+
+1)In real life what is the total amount of petrol in volume sold by every distributor?
+
+SELECT distributer_name,SUM(vol_OUT) FROM petrol GROUP BY distributer_name;
+
+
+2)Which are the top 10 distributors ID’s for selling petrol and also display the amount of petrol sold in volume by them individually?
+
+SELECT distributer_id,vol_OUT FROM petrol order by vol_OUT desc limit 10;
+
+
+3)Find real life 10 distributor name who sold petrol in the least amount.
+
+SELECT distributer_name,SUM(vol_OUT) FROM petrol GROUP BY distributer_name;
+
+SELECT distributer_id,vol_OUT FROM petrol order by vol_OUT limit 10;
+
+
+4)List all distributors who have this difference, along with the year and the difference which they have in that year.
+
+select distributer_name,year from petrol where (vol_in-vol_Out)>300;
+
+select distributer_name,year from petrol where (vol_in-vol_Out)>380 limit 10;
+
+
+#Task 2:
+
+Creation of Table in Hive and Loading of data :
+
+
+create table olympic (athelete STRING,age INT,country STRING,year STRING,closing STRING,sport STRING,gold INT,silver INT,bronze INT,total INT) row format delimited fields terminated by '\t' stored as textfile;
+
+load data local inpath '/home/cloudera/Desktop/olympic_data.csv' into table olympic;
+
+
+1) Using the dataset list the total number of medals won by each country in swimming.
+
+select country,SUM(total) from olympic where sport = "Swimming" GROUP BY country;
+
+
+2)Display real life number of medals India won year wise.
+
+select year,SUM(total) from olympic where country = "India" GROUP BY year;
+
+
+3)Find the total number of medals each country won display the name along with total medals.
+
+select country,SUM(total) from olympic GROUP BY country;
+
+
+4)Find the real life number of gold medals each country won.
+
+select country,SUM(gold) from olympic GROUP BY country;
+
+
+5)Which country got medals for Shooting, year wise classification?
+
+select country,year,sum(total) from olympic where sport = "Shooting" GROUP BY country,year;
+
+
+#Task 3:
+
+
+1)Creation of Table in Hive and Loading of data :
+
+create table movies (movieId STRING, title STRING, genres ARRAY<STRING>) row format delimited fields terminated by ',' collection items terminated by '|' stored as textfile;
+
+load data local inpath '/home/cloudera/Desktop/movies.csv' into table movies;
+
+alter table movies set tblproperties ("skip.header.line.count"="1");
+
+
+Creation of Table in Hive and Loading of data :
+
+create table ratings (userId STRING, movieId INT, rating DECIMAL(2,1), timestamp STRING) row format delimited fields terminated by ',' stored as textfile;
+load data local inpath '/home/cloudera/Desktop/ratings.csv' into table ratings;
+
+alter table ratings set tblproperties ("skip.header.line.count"="1");
+
+
+Creation of Table in Hive and Loading of data :
+
+create table users (userId INT, gender STRING, occupation INT,zipcode INT) row format delimited fields terminated by ',' stored as textfile;
+
+load data local inpath '/home/cloudera/Desktop/users.txt' into table users;
+
+alter table users set tblproperties ("skip.header.line.count"="1");
+
+2)List all movies with genre of movie is “Action” and “Drama”
+
+select title, genres from movies where array_contains(genres, 'Action') and array_contains(genres,'Drama');
+
+
+3)List movie ids of all movies with rating equal to 5.
+
+select movieId, rating  from ratings where rating = 5;
+
+
+4)Find top 11 average rated "Action" movies with descending order of rating
+select title, rating, genres from movies JOIN ratings ON movies.movieId = ratings.movieId where array_contains(genres, 'Action') order by rating desc limit 11;

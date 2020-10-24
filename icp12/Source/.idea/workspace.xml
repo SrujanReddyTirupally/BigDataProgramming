@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="283c01d4-d3ce-439f-a03d-e846828a238f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eyPqgA5fFzAzcuWgPSfLDE0RSY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="Application.graphframe">
+    <configuration name="Graphs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs" />
+      <module name="Spark-ICP5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graphframe" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="graphframe" />
+      <module name="Spark-ICP5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.graphframe" />
+        <item itemvalue="Application.Graphs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Spark-ICP5" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="spark-icp5 [file:/C:/Users/srujan%20reddy/Desktop/Spark-ICP5/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Spark-ICP5-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3190583447090" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="966312206" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="283c01d4-d3ce-439f-a03d-e846828a238f" name="Default Changelist" comment="" />
+      <created>1595291052257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595291052257</updated>
+      <workItem from="1595291054921" duration="3144000" />
+      <workItem from="1595295171922" duration="1231000" />
+      <workItem from="1595351607780" duration="2298000" />
+      <workItem from="1595443107601" duration="667000" />
+      <workItem from="1595444231105" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="0" key="#Project_Structure" timestamp="1595294220275">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="0" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1595294220275" />
+    <state x="197" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595291318118">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="197" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1595291318118" />
+    <state width="1231" height="157" key="GridCell.Tab.0.bottom" timestamp="1595443774185">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="157" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1595443774185" />
+    <state width="1231" height="157" key="GridCell.Tab.0.center" timestamp="1595443774185">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="157" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1595443774185" />
+    <state width="1231" height="157" key="GridCell.Tab.0.left" timestamp="1595443774185">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="157" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1595443774185" />
+    <state width="1231" height="157" key="GridCell.Tab.0.right" timestamp="1595443774185">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="157" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1595443774185" />
+    <state x="279" y="129" key="com.intellij.ide.util.TipDialog" timestamp="1595444232372">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="279" y="129" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1595444232372" />
+  </component>
+</project>

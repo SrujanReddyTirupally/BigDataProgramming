@@ -1,0 +1,5 @@
+animals,cat,teddy
+animals,dog,puppy
+animals,cat,kitty
+animals,cat,josy
+animals,dog,devil

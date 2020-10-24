@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8043361c-d93b-47b5-963e-51870f0b9eba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eQspcTj6xYO1Cl9JO4m7ZfE4KS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="Application.Dfs">
+    <configuration name="Dfs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Dfs" />
+      <module name="Icp9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kmeans" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Kmeans" />
+      <module name="Icp9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="Icp9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Mergesort" />
+      <module name="Icp9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Dfs" />
+        <item itemvalue="Application.Mergesort" />
+        <item itemvalue="Application.Kmeans" />
+        <item itemvalue="Application.MergeSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Icp9" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="icp9 [file:/C:/Users/srujan%20reddy/Desktop/Icp9/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Icp9-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3188531355961" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2993852658" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8043361c-d93b-47b5-963e-51870f0b9eba" name="Default Changelist" comment="" />
+      <created>1594265334588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594265334588</updated>
+      <workItem from="1594265337163" duration="1548000" />
+      <workItem from="1594319016697" duration="2321000" />
+      <workItem from="1594321915943" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="0" key="#Notifications" timestamp="1594265783705">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="0" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1594265783705" />
+    <state x="94" y="0" key="#Project_Structure" timestamp="1594266303110">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="94" y="0" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1594266303110" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594265745392">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1594265745392" />
+    <state x="371" y="43" key="FileChooserDialogImpl" timestamp="1594266256647">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="43" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1594266256647" />
+    <state width="1231" height="501" key="GridCell.Tab.0.bottom" timestamp="1594322412730">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="501" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1594322412730" />
+    <state width="1231" height="501" key="GridCell.Tab.0.center" timestamp="1594322412730">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="501" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1594322412730" />
+    <state width="1231" height="501" key="GridCell.Tab.0.left" timestamp="1594322412730">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="501" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1594322412730" />
+    <state width="1231" height="501" key="GridCell.Tab.0.right" timestamp="1594322412730">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1231" height="501" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1594322412730" />
+    <state x="279" y="129" key="com.intellij.ide.util.TipDialog" timestamp="1594322212002">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="279" y="129" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1594322212002" />
+  </component>
+</project>

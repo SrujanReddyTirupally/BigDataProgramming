@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94f561b6-4505-4bfd-bf5f-1192d2735ba3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eKZvWOSrmAQXb2LBGBBDHmlxna" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="Application.SecondarySort">
+    <configuration name="SecondarySort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SecondarySort" />
+      <module name="ICP8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="WordCount" />
+      <module name="ICP8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="ICP8" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SecondarySort" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="ICP8" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="icp8 [file:/C:/Users/srujan%20reddy/Desktop/ICP8/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ICP8-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3905709476" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94f561b6-4505-4bfd-bf5f-1192d2735ba3" name="Default Changelist" comment="" />
+      <created>1594072475444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594072475444</updated>
+      <workItem from="1594072478422" duration="6125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="0" key="#Notifications" timestamp="1594080185409">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="0" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1594080185409" />
+    <state x="133" y="0" key="#Project_Structure" timestamp="1594081453003">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="0" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1594081453003" />
+    <state x="322" y="0" width="655" height="689" key="#WordCount" timestamp="1594081908212">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="322" y="0" width="655" height="689" key="#WordCount/0.0.1280.689@0.0.1280.689" timestamp="1594081908212" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594081524900">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1594081524900" />
+    <state x="349" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594082142149">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="349" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1594082142149" />
+    <state x="197" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594080645183">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="197" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1594080645183" />
+    <state x="371" y="27" key="FileChooserDialogImpl" timestamp="1594081290583">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="27" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1594081290583" />
+    <state width="615" height="142" key="GridCell.Tab.0.bottom" timestamp="1594088484618">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="615" height="142" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1594088484618" />
+    <state width="615" height="142" key="GridCell.Tab.0.center" timestamp="1594088484617">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="615" height="142" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1594088484617" />
+    <state width="615" height="142" key="GridCell.Tab.0.left" timestamp="1594088484617">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="615" height="142" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1594088484617" />
+    <state width="615" height="142" key="GridCell.Tab.0.right" timestamp="1594088484617">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="615" height="142" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1594088484617" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1594081315690">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1594081315690" />
+  </component>
+</project>
