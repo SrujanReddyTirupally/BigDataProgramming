@@ -1,0 +1,18 @@
+1. hadoop fs -copyFromLocal /home/cloudera/Desktop/BigdataProgramming/ICP1/datasets/shakespeare.txt /user/cloudera/ICP1/shakespeare.txt
+
+2.  hadoop fs -appendToFile  /home/cloudera/Desktop/BigdataProgramming/ICP1/datasets/word_list.txt /user/cloudera/ICP1/shakespeare.txt
+ 
+3. hadoop fs -cat /user/cloudera/ICP1/shakespeare.txt | head -n 5
+
+4. hadoop fs -cat /user/cloudera/ICP1/shakespeare.txt | tail -n 5
+
+5.  hadoop fs -copyFromLocal /home/cloudera/Desktop/BigdataProgramming/ICP1/datasets/Thirdfile.txt /user/cloudera/ICP1/Thirdfile.txt
+
+6. hadoop fs -cat /user/cloudera/ICP1/shakespeare.txt /user/cloudera/ICP1/Thirdfile.txt | hadoop fs -put - /user/cloudera/ICP1/Output.txt
+
+7. hadoop fs -cat /user/cloudera/ICP1/Output.txt | head -n 5
+
+8. hadoop fs -cat /user/cloudera/ICP1/Output.txt | tail -n 5
+
+
+
