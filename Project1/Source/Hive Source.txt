@@ -1,0 +1,45 @@
+create database ProjectBasedExam1;
+
+
+use ProjectBasedExam1;
+
+create table super_heroes (hero_id INT,hero_name STRING,Gender STRING,eye_colour STRING,race_type STRING,Hair_type STRING,Height FLOAT,Publisher ARRAY<STRING>,Skin_color STRING,Alignment STRING,Weight FLOAT) row format delimited fields terminated by ',' stored as textfile tblproperties("skip.header.line.count"="1");
+
+load data local inpath '/home/cloudera/Desktop/heroes_information.csv' into table super_heroes;
+
+query 1
+select eye_colour,race_type, hair_type, count(*) from super_heroes group by eye_colour,race_type
+,hair_type order by race_type;
+
+query 2
+select publisher,hero_name ,concat(hair_type,eye_colour) from super_heroes;
+
+query 3
+select hero_id,hero_name, publisher from super_heroes 
+where array_contains(publisher, 'Marvel Comics') limit 7
+
+query 4
+select race_type,gender,max(height) from super_heroes where height>0 and gender <> '' group by race_type, gender;
+
+
+query 5
+select race_type,gender ,min(weight) from super_heroes where height>0 and gender <> '' group by race_type, gender;
+
+query 6
+select publisher, alignment,count(*) from super_heroes 
+where array_contains(publisher, 'Marvel Comics') 
+group by publisher,alignment;
+
+query 7
+select publisher,concat(hair_type,race_type) from super_heroes where hair_type != '-' limit 17
+
+query 8
+select publisher,eye_colour from super_heroes 
+where eye_colour like "brown%" limit 7;
+
+query 9
+select distinct(publisher) from super_heroes;
+
+
+query 10
+select publisher, substr(hero_name,1,7) from super_heroes limit 7
